@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 32px;
+  gap: 32px;
+
+  h2 {
+    font-size: 2.5rem;
+    color: var(--primary-500);
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.3rem;
+    text-align: center;
+    max-width: 960px;
+  }
+}
+
+.image {
+  position: relative;
+  width: 128px;
+  height: 128px;
+
+  img {
+    object-fit: fill;
+  }
+}

@@ -1,0 +1,19 @@
+.main {
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+
+  strong {
+    color: var(--primary-500);
+  }
+}
+
+@media (max-width: 550px) {
+  .main {
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+  }
+}
